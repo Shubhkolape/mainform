@@ -29,6 +29,50 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKOBGW7ROmZFlkUlt0KF_fRSsuyyb70W9L88tr6U9XOUhAgg/viewform?embedded=true&param1=value1&param2=value2"
+    width="640" height="718" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+    <df-messenger
+      project-id="qatar-airlines-project-410914"
+      agent-id="6e46fd14-5d7f-4df0-b4a9-46ee8ad2a1e4"
+      language-code="en">
+      <df-messenger-chat-bubble
+        bot-actor-image="https://logos-world.net/wp-content/uploads/2020/03/Qatar-Airways-Symbol.png"
+        chat-title="Q-Bot"
+        chat-title-icon="https://logos-world.net/wp-content/uploads/2020/03/Qatar-Airways-Symbol.png">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+       --df-messenger-message-user-background:#8e2157;
+       --df-messenger-message-user-font-color:#000; 
+       --df-messenger-message-bot-background:#8e2157;
+       --df-messenger-message-bot-font-color:#fff;
+       --df-messenger-chat-background: #fff;
+       --df-messenger-input-background: #fff;
+       --df-messenger-chat-padding: 24px 8px 8px 0px;
+       --df-messenger-message-bot-margin-right: 20px;
+       --df-messenger-chat-bubble-background-color:#8e2157;
+       --df-messenger-message-font-size:14px; 
+      }
+    </style>
+
+
+
+
+
+
+
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
